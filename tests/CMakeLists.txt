@@ -9,6 +9,10 @@ add_executable(test_stats test_stats.cpp)
 target_link_libraries(test_stats tttplayer)
 add_test(NAME test_player_stats COMMAND ./test_stats)
 
+add_executable(test_my_bot test_my_bot.cpp)
+target_link_libraries(test_my_bot tttplayer)
+add_test(NAME test_my_bot COMMAND ./test_my_bot)
+
 # Targets that require full or prebuilt tttcore
 if((BUILD_TTTCORE STREQUAL "FULL") OR (BUILD_TTTCORE STREQUAL "PREBUILT"))
   # Baseline tests
