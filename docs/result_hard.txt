@@ -1,0 +1,15 @@
+Testing MyPlayer vs baseline easy player
+MyPlayer wins: 25
+BaselineHard wins: 2
+draws:  73
+errors: 0
+
+MyPlayer play time:
+ - move time (ms): 67.9159
+ - event time (ms): 0.000197584
+
+BaselineHard play time:
+ - move time (ms): 0.00296645
+ - event time (ms): 0.00352726
+
+game process average time: 33.9664 (ms)
